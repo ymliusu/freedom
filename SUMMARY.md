@@ -7,4 +7,5 @@
 * [3 Quantumult X](./docs/quantumultx/README.md)
 * [4 ClashX Pro](./docs/clashxPro/README.md)
 * [5 VPS](./docs/vps/README.md)
+  * [5.1 Debian系统初始化要做的事](./docs/vps/debian_init.md)
 

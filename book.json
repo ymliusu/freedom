@@ -7,14 +7,31 @@
         "website": "styles/website.css"
      },
     "plugins": [
-      "emphasize",   
-      "tbfed-pagefooter" 
+      "-lunr", 
+      "-search",
+      "-sharing",
+      "search-plus", 
+      "emphasize",
+      "back-to-top-button",
+      "tbfed-pagefooter",
+      "code",
+      "splitter",
+      "chapter-fold",
+      "expandable-chapters",
+      "github",
+      "lightbox"
       ],
     "pluginsConfig": {
-        "tbfed-pagefooter": {
-        "copyright":"Copyright",
-        "modify_label": "该文件修订时间：",
-        "modify_format": "YYYY-MM-DD HH:mm:ss"
-       }
-     }
+      "tbfed-pagefooter": {
+        "copyright":"Copyright &copy ymliusu 2021",
+        "modify_label": "修订日期：",
+        "modify_format": "YYYY-MM-DD"
+       },
+       "code": {
+        "copyButtons": true
+      },
+      "github": {
+        "url": "https://github.com/ymliusu"
+      }
+    }
 }
