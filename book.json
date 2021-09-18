@@ -16,12 +16,15 @@
       "tbfed-pagefooter",
       "code",
       "splitter",
-      "chapter-fold",
-      "expandable-chapters",
       "github",
-      "lightbox"
+      "-highlight",
+      "prism",
+      "prism-themes"
       ],
     "pluginsConfig": {
+      "theme-default": {
+        "showLevel": true
+       },
       "tbfed-pagefooter": {
         "copyright":"Copyright &copy ymliusu 2021",
         "modify_label": "修订日期：",
@@ -32,6 +35,11 @@
       },
       "github": {
         "url": "https://github.com/ymliusu"
+      },
+      "prism": {
+        "css": [
+            "prism-themes/themes/prism-base16-ateliersulphurpool.light.css"
+        ]
       }
     }
 }
